@@ -1,0 +1,312 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.5.31)  13 SEP 2023 15:10
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"/home/eric/data/Documents/LaTeX/GEVO Times/September_2023/gevo_times_september_2023.tex"
+(/home/eric/data/Documents/LaTeX/GEVO Times/September_2023/gevo_times_september_2023.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-01-16> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2022/12/26 3.84 The Babel package
+\babel@savecnt=\count193
+\U@D=\dimen141
+\l@unhyphenated=\language87
+ (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count194
+ (/usr/share/texlive/texmf-dist/tex/generic/babel-czech/czech.ldf
+Language: czech 2008/07/06 v3.1a Czech support from the babel system
+Package babel Info: Making " an active character on input line 172.
+\cs@wordlen=\count195
+Package babel Info: Making - an active character on input line 226.
+)) (/usr/share/texlive/texmf-dist/tex/generic/babel/locale/cs/babel-czech.tex
+Package babel Info: Importing font and identification data for czech
+(babel)             from babel-cs.ini. Reported on input line 11.
+) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+) (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count196
+\Gm@cntv=\count197
+\c@Gm@tempcnt=\count198
+\Gm@bindingoffset=\dimen142
+\Gm@wd@mp=\dimen143
+\Gm@odd@mp=\dimen144
+\Gm@even@mp=\dimen145
+\Gm@layoutwidth=\dimen146
+\Gm@layoutheight=\dimen147
+\Gm@layouthoffset=\dimen148
+\Gm@layoutvoffset=\dimen149
+\Gm@dimlist=\toks17
+) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (/usr/share/texlive/texmf-dist/tex/latex/xcharter/XCharter.sty
+Package: XCharter 2022/04/16 v1.24
+ `XCharter' v1.24, 2022/04/16 Text macros for XCharter, an extension of Charter (msharpe) (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks18
+\XKV@tempa@toks=\toks19
+)
+\XKV@depth=\count199
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count266
+) (/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+) (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
+\integerpart=\count267
+\decimalpart=\count268
+)
+Package: xstring 2023/01/14 v1.85 String manipulations (CT)
+) (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/carlisle/scalefnt.sty) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+LaTeX Font Info:    Setting XCharter-LF sub-encoding to TS1/0 on input line 29.
+LaTeX Font Info:    Changing XCharter-TLF sub-encoding to TS1/0 on input line 29.
+LaTeX Font Info:    Setting XCharter-OsF sub-encoding to TS1/0 on input line 29.
+LaTeX Font Info:    Changing XCharter-TOsF sub-encoding to TS1/0 on input line 29.
+\xch@cnt=\count269
+ (/usr/share/texlive/texmf-dist/tex/latex/fontaxes/fontaxes.sty
+Package: fontaxes 2020/07/21 v1.0e Font selection axes
+LaTeX Info: Redefining \upshape on input line 29.
+LaTeX Info: Redefining \itshape on input line 31.
+LaTeX Info: Redefining \slshape on input line 33.
+LaTeX Info: Redefining \swshape on input line 35.
+LaTeX Info: Redefining \scshape on input line 37.
+LaTeX Info: Redefining \sscshape on input line 39.
+LaTeX Info: Redefining \ulcshape on input line 41.
+LaTeX Info: Redefining \textsw on input line 47.
+LaTeX Info: Redefining \textssc on input line 48.
+LaTeX Info: Redefining \textulc on input line 49.
+)
+LaTeX Info: Redefining \textsu on input line 712.
+LaTeX Info: Redefining \textde on input line 714.
+LaTeX Info: Redefining \textinf on input line 716.
+) (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+\f@nch@headwidth=\skip50
+\f@nch@O@elh=\skip51
+\f@nch@O@erh=\skip52
+\f@nch@O@olh=\skip53
+\f@nch@O@orh=\skip54
+\f@nch@O@elf=\skip55
+\f@nch@O@erf=\skip56
+\f@nch@O@olf=\skip57
+\f@nch@O@orf=\skip58
+) (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty (/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2023-01-16 L3 programming layer (loader) 
+ (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count270
+\l__pdf_internal_box=\box51
+))
+Package: l3keys2e 2023-01-16 LaTeX2e option processing using LaTeX3 keys
+)
+Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+\g__lipsum_par_int=\count271
+\l__lipsum_a_int=\count272
+\l__lipsum_b_int=\count273
+ (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+) (/usr/share/texlive/texmf-dist/tex/latex/anyfontsize/anyfontsize.sty
+Package: anyfontsize 2007/11/22 anyfontsize.sty by pts
+)
+LaTeX Info: Redefining \oldstylenums on input line 55.
+LaTeX Font Info:    Trying to load font information for T1+XCharter-TLF on input line 55.
+ (/usr/share/texlive/texmf-dist/tex/latex/xcharter/T1XCharter-TLF.fd
+File: T1XCharter-TLF.fd 2017/06/25 (autoinst) Font definitions for T1/XCharter-TLF.
+)
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 55.
+ (./gevo_times_september_2023.aux)
+\openout1 = `gevo_times_september_2023.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a5paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(42.67912pt, 335.74254pt, 42.67912pt)
+* v-part:(T,H,B)=(42.67912pt, 512.14963pt, 42.67912pt)
+* \paperwidth=421.10078pt
+* \paperheight=597.50787pt
+* \textwidth=335.74254pt
+* \textheight=484.14963pt
+* \oddsidemargin=-29.59087pt
+* \evensidemargin=-29.59087pt
+* \topmargin=-53.59087pt
+* \headheight=25.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=95.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\c@mv@tabular=\count274
+\c@mv@boldtabular=\count275
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count276
+\scratchdimen=\dimen150
+\scratchbox=\box52
+\nofMPsegments=\count277
+\nofMParguments=\count278
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count279
+\MPscratchDim=\dimen151
+\MPnumerator=\count280
+\makeMPintoPDFobject=\count281
+\everyMPtoPDFconversion=\toks21
+)
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 40.0pt on input line 59.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
+(Font)              scaled to size 40.0pt on input line 59.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/sc' will be
+(Font)              scaled to size 12.0pt on input line 60.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/sc' will be
+(Font)              scaled to size 20.74pt on input line 60.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/sc' will be
+(Font)              scaled to size 17.28pt on input line 61.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/sc' will be
+(Font)              scaled to size 14.4pt on input line 62.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 20.74pt on input line 81.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
+(Font)              scaled to size 20.74pt on input line 81.
+ [2
+
+]
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 17.28pt on input line 124.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
+(Font)              scaled to size 17.28pt on input line 124.
+
+Overfull \hbox (7.14726pt too wide) in paragraph at lines 131--132
+\T1/XCharter-TLF/m/n/12 ²it p°í-stup k in-for-ma-cím a pod-po-ro-vat uºi-va-tele ve vzd¥-
+ []
+
+
+Overfull \hbox (1.82767pt too wide) in paragraph at lines 133--134
+[]\T1/XCharter-TLF/m/n/12 Mým hlav-ním po-slá-ním je po-má-hat li-dem zís-ká-vat pot-
+ []
+
+
+Overfull \hbox (11.93083pt too wide) in paragraph at lines 140--140
+[]\T1/XCharter-TLF/b/n/17.28 Co si o um¥lé in-te-li-genci myslí u£i-telé GEVA? 
+ []
+
+LaTeX Font Info:    Trying to load font information for T1+cmss on input line 143.
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
+File: t1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+) [3
+
+
+]
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
+(Font)              scaled to size 12.0pt on input line 147.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/sc' will be
+(Font)              scaled to size 10.95pt on input line 153.
+ (./gevo_times_september_2023.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 2.
+)
+\tf@toc=\write3
+\openout3 = `gevo_times_september_2023.toc'.
+
+ [4
+
+] (./gevo_times_september_2023.aux) ) 
+Here is how much of TeX's memory you used:
+ 5400 strings out of 476091
+ 90217 string characters out of 5794081
+ 1855330 words of memory out of 5000000
+ 25712 multiletter control sequences out of 15000+600000
+ 602438 words of font info for 66 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 72i,11n,77p,341b,301s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/xcharter/xch_rydp4l.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/xcharter/xch_yelf2i.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/xcharter/XCharter-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/xcharter/XCharter-Roman.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrb3583.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1200.pfb>
+Output written on gevo_times_september_2023.pdf (4 pages, 153050 bytes).
+PDF statistics:
+ 43 PDF objects out of 1000 (max. 8388607)
+ 27 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,158 @@
+\documentclass[twoside, 12pt]{article}
+\usepackage[czech]{babel}
+\usepackage[a5paper, margin=1.5cm]{geometry}
+
+\usepackage[T1]{fontenc}
+% \usepackage{palatino} % font
+\usepackage{XCharter} % font
+%\usepackage{palatino} % font
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+\setlength{\headheight}{25.0pt}
+\addtolength{\topmargin}{13.0pt}
+\addtolength{\textheight}{-28.0pt}
+
+\lhead{}
+\chead{}
+\rhead{\today}
+
+\usepackage{lipsum}
+\usepackage{xcolor}
+\usepackage{anyfontsize}
+%\usepackage{showframe}
+
+
+
+% \usepackage{titlesec}
+% \usepackage{fontspec}
+
+% \setmainfont{fbb}
+% \newfontfamily\headingfont{Montserrat}
+
+% \titleformat*{\section}{\Large\headingfont}
+% \titleformat*{\subsection}{\large\headingfont}
+% \titleformat*{\subsubsection}{\headingfont}
+
+
+
+\let\oldquote\quote
+\let\endoldquote\endquote
+\renewenvironment{quote}[2][]
+{\if\relax\detokenize{#1}\relax
+        \def\quoteauthor{#2}%
+    \else
+        \def\quoteauthor{#2~---~#1}%
+    \fi
+    \oldquote}
+{\par\nobreak\smallskip\hfill(\quoteauthor)%
+    \endoldquote\addvspace{\bigskipamount}}
+
+
+
+
+\begin{document}
+
+\begin{titlepage}
+    \begin{center}
+    {\fontsize{40}{50} \bf{\fontfamily{cmr}\selectfont Gevo Times}}\\[1.5cm]
+    \textsc{\LARGE Říjen 2023}\\[2.5cm]
+    \textsc{\Large BACK TO SCHOOL}\\[1.5cm]
+    \textsc{\large UMĚLÁ INTELIGENCE?}\\[1cm]
+    \textsc{\large JAK ZVLÁDNOUT ŠKOLNÍ ROK?}\\[0.5cm]
+    \textsc{\large PROČ SE UČIT?}\\[0.5cm]
+    \textsc{\large PRŮVODCE GEVEM}\\[0.5cm]
+    \textsc{\normalsize CO NEŘÍKAT NA HODINÁCH MATIKY S PETRÁŠKEM???}\\[0.5cm]
+    \end{center}
+\end{titlepage}
+
+
+\clearpage
+\rhead{}
+\chead{\LARGE \textbf{Co je nového?}}
+\addcontentsline{toc}{subsection}{Co je nového?}
+Blablabla, idk \\
+\lipsum[1]
+\begin{center}
+    \textsc{\Large Tento rok v novém formátu}\\[1.5cm]
+\end{center}
+idk fotka asi
+\clearpage
+% \chead{
+%     \noindent\colorbox{blue!20}
+%     {
+%     \begin{minipage}{0.96\textwidth}
+%         \centering
+%         \LARGE \textbf{Průvodce GEVEM}
+%     \end{minipage}
+%     } 
+% }
+% \addcontentsline{toc}{subsection}{Průvodce GEVEM}
+% \chead{
+%     \noindent\colorbox{blue!20}
+%     {
+%     \begin{minipage}{0.96\textwidth}
+%         \centering
+%         \LARGE \textbf{Nějaký zajímavý článek}
+%     \end{minipage}
+%     } 
+% }
+% \addcontentsline{toc}{subsection}{Průvodce GEVEM}
+% \noindent\colorbox{blue!20}
+% {
+% \begin{minipage}{0.96\textwidth}
+%     \lipsum[1]
+% \end{minipage}
+% }
+
+\clearpage
+% \chead{
+%     \noindent\colorbox{green!20}
+%     {
+%     \begin{minipage}{0.96\textwidth}
+%         \centering
+%         \LARGE \textbf{ChatGPT ve škole?}
+%     \end{minipage}
+%     } 
+% }
+
+\addcontentsline{toc}{subsection}{ChatGPT ve škole?}
+\chead{\LARGE \textbf{ChatGPT ve škole?}}
+
+
+\section*{Co je to ChatGPT?}
+
+ChatGPT je chatbot, který využívá umělou inteligenci. Jeho cílem je odpovědět na otázky, které mu zadáme a pomoct nám. Napsal jsem ChatGPT, ať se představí sám:
+
+\begin{quote}{ChatGPT}
+    Jsem ChatGPT, pokročilý umělý inteligentní asistent, vyvinutý firmou OpenAI. Mé schopnosti zahrnují odpovídání na otázky, poskytování informací a podporu v různých oblastech.
+
+Moje technologie je založena na modelu GPT-3.5 a byla vytvořena týmem vědců a inženýrů s cílem zlepšit přístup k informacím a podporovat uživatele ve vzdě\-lávání a každodenním životě.
+
+Mým hlavním posláním je pomáhat lidem získávat pot\-řebné informace rychle a efektivně, a tím přispívat k jejich učení a rozvoji.
+\end{quote}
+
+\section*{Má ChatGPT vždy pravdu?}
+
+Ne, ChatGPT se učí odpovídat na otázky, které mu zadáváme. Pokud mu zadáme otázku, na kterou nezná odpověď, tak nám odpoví něco, co se mu zdá být nejpravděpodobnější. 
+
+\section*{Co si o umělé inteligenci myslí učitelé GEVA?}
+
+This is some text in the default serif font. {\rmfamily This is in the default serif font as well.} This is back to the default serif font.
+This is text in a serif font. {\sffamily This is text in sans-serif font.} Back to serif font.
+AMOGUIS
+\clearpage
+\centering
+\textbf{***poslední strana***}\\
+
+\noindent \textsc{\Large NEJLEPŠÍ školní noviny, které jste kdy četli.}\\[0.5cm]
+\textsc{\Large vždy je vydáme včas.}\\[0.5cm]
+\textsc{\large možná v pondělí.}\\[0.5cm]
+\textsc{\normalsize nebo to další.}\\[0.5cm]
+\textsc{\small popravdě, ani my nevíme které pondělí to bude\dots}\\[0.5cm]
+\vfill
+\chead{\LARGE \textbf{O GEVO Times}}
+\tableofcontents
+
+\end{document}
