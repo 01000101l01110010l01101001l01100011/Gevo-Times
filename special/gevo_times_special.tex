@@ -35,6 +35,9 @@
 \usepackage{anyfontsize}
 % \usepackage{showframe}
 
+% Two sheets per page layout
+\usepackage{pgfpages}
+
 \usepackage{tikz}
 \usetikzlibrary{positioning}
 
@@ -56,6 +59,7 @@
 %     \fontsize{40}{43}\selectfont \textcolor{MidnightBlue}{\textbf{NESTRČ!}}
 %  \end{center}}
 \begin{document}
+\pgfpagesuselayout{2 on 1}[a4paper,landscape]
 
 \addtolength{\topmargin}{-10pt}
 \addtolength{\textheight}{10pt}
@@ -95,8 +99,8 @@
 
  \begin{wrapfigure}[6]{r}{0.25\textwidth}
     \vspace*{-13pt}
-    \includegraphics[width=0.25\textwidth]{funtomas}
-    \vspace*{-23pt}
+    \includegraphics[width=0.24\textwidth]{funtomas}
+    \vspace*{-10pt}
     \begin{flushright}
         \footnotesize{
         \textit{
@@ -221,7 +225,7 @@ O čem bude řeč? Napoví tento obrázek:
 
 \begin{wrapfigure}[10]{r}{0.35\textwidth}
     \vspace*{-4pt}
-    \includegraphics[width=0.35\textwidth]{hodina}
+    \includegraphics[width=0.34\textwidth]{hodina}
 \end{wrapfigure}
 
 
@@ -264,7 +268,7 @@ neměl \textbf{ani minutu}\dots}
 TO JE VONA\dots \\
 \begin{wrapfigure}[3]{r}{0.35\textwidth}
     \vspace*{-40pt}
-    \includegraphics[width=0.35\textwidth]{libiak}
+    \includegraphics[width=0.34\textwidth]{libiak}
 \end{wrapfigure}
 
 A jestli si myslíte, že je to Libiaková, tak se šeredně pletete!
