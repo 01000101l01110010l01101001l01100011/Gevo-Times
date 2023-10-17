@@ -1,6 +1,6 @@
-\documentclass[twoside, 11pt]{article}
+\documentclass[twoside, a5paper, 11pt]{article}
 \usepackage[czech]{babel}
-\usepackage[a5paper, margin=1.5cm, left = 1.25cm, right = 1.25 cm, bindingoffset=5mm]{geometry}
+\usepackage[margin=1.5cm, left = 1.25cm, right = 1.25 cm, bindingoffset=5mm]{geometry}
 
 \usepackage{tgbonum}
 \usepackage[T1]{fontenc}
@@ -12,19 +12,10 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 
-\lhead{}
-\chead{}
-\rhead{}
-\cfoot{}
-\lfoot{}
+\fancyhf{}
 \rfoot{\thepage}
 \renewcommand{\headrulewidth}{0pt}
-
-
-
 \titlespacing*{\section}{0pt}{1.25\baselineskip}{0.25\baselineskip}
-
-
 \usepackage{wrapfig}
 
 \usepackage{float}
@@ -32,7 +23,6 @@
 \usepackage{lipsum}
 \usepackage[dvipsnames]{xcolor}
 \usepackage{anyfontsize}
-% \usepackage{showframe}
 
 \usepackage{tikz}
 \usetikzlibrary{positioning}
@@ -59,10 +49,9 @@
   \vphantom{A}\smash{#1}%
 }
 
-\usepackage{showframe}
 \begin{document}
 
-\renewcommand{\headheight}{0pt}
+\setlength{\headheight}{0pt}
 \makebox[\textwidth][c]{
     \fontsize{45}{48}\selectfont
     \textcolor{MidnightBlue}{\textbf{
@@ -115,7 +104,6 @@ zveřejnila studii vypracovanou komisí odborníků z
 ČT a financovanou z grantů EU, MŠMT a MŠ
 Jažlovická.
 
-
 Komise s politováním konstatovala, že po shlédnutí
 cca 486 hodin českých večerníčků zjistila, že
 pohádky trpí nedostatkem etnické různorodosti.
@@ -127,7 +115,7 @@ nová verze večerníčkové série Maková panenka a
 motýl e-Manuel\dots
 
 
-\begin{figure}[htbp]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=\textwidth]{emanuel}
 \end{figure}
@@ -151,7 +139,7 @@ A protože většina kurýrů by matematiku na takové úr\-ovni rozhodně nezvl
 vychytrale doučování za svou obvyklou taxu 999 Kč/hod. \uv{Vím, není to málo, ale jen si
 spočítejte, o kolik více si vyděláte, když zvládnete správně používat diferenciál!}
 
-\begin{figure}[htbp]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=0.65\textwidth]{wolt}
 \end{figure}
@@ -174,7 +162,7 @@ překvapivě ne přes účet školy, ale cash. Jaké bylo naše překvapení, kd
 měl zavézt na vídeňské letiště, zastavil u poslední benzinky před rakouskými hranicemi a Kučera
 místo tankování velel popojet k pestře svítícím neonům nedalekého Casina Imperátor.
 
-\begin{figure}[htbp]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=0.55\textwidth]{ny}
 \end{figure}
@@ -203,7 +191,7 @@ Těmito slovy se s námi dotyčný student rozloučil a odešel na Opatov skoči
 \section*{Filmový propadák léta 2023}
 O čem bude řeč? Napoví tento obrázek:
 
-\begin{figure}[htbp]
+\begin{figure}[ht]
     \centering
     \vspace*{-3pt}
     \includegraphics[width=0.9\textwidth]{barbie}
