@@ -9,7 +9,6 @@
 
 \usepackage{titlesec}
 
-
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 
@@ -56,30 +55,26 @@
 %     \fontsize{40}{43}\selectfont \textcolor{MidnightBlue}{\textbf{NESTRČ!}}
 %  \end{center}}
 
+\newcommand{\ignorediacritics}[1]{%
+  \vphantom{A}\smash{#1}%
+}
+
+\usepackage{showframe}
 \begin{document}
 
-\addtolength{\topmargin}{-10pt}
-\addtolength{\textheight}{10pt}
-\headheight = 0pt
-\begin{center}
-    \fontsize{45}{48}\selectfont \textcolor{MidnightBlue}{\textbf{NESTRČ!}}
- \end{center}
-
-
- \begin{tikzpicture}[remember picture,overlay]
-    \node [yshift=105.5mm, xshift=2.5mm] (logo) at (current page.center)
-        {\color{gray} \rule{\linewidth}{0pt}};
-    \node [below=20mm of logo](first)
-        {\color{gray} \rule{\linewidth}{1pt}}
-        ;
-    \node [below=-2mm of first](second)
-    {\color{black} \rule{\linewidth}{3pt}}
-    ;
-    \node [below=-2mm of second](third)
-    {\color{gray} \rule{\linewidth}{1pt}}
-    ;
-\end{tikzpicture}
-\vspace{-\baselineskip}
+\renewcommand{\headheight}{0pt}
+\makebox[\textwidth][c]{
+    \fontsize{45}{48}\selectfont
+    \textcolor{MidnightBlue}{\textbf{
+    \ignorediacritics{NESTRČ!}}}
+    }
+ \parbox[c]{\textwidth}{
+     \vspace*{-2.5mm}
+     \rule[-3mm]{\linewidth}{1pt}
+     \rule{\linewidth}{3pt}
+     \rule[3.7mm]{\linewidth}{1pt}
+ }
+ \vspace*{-\baselineskip}
  \large Co? Kam? - Neeee\dots
  \begin{flushright}
     je tu \textcolor{MidnightBlue}{\textbf{Ne}}korektní \textcolor{MidnightBlue}{\textbf{st}}udentský \textcolor{MidnightBlue}{\textbf{r}}ecesistický \textcolor{MidnightBlue}{\textbf{č}}asopis
@@ -113,7 +108,6 @@
 Několik skandálních odhalení o Voltovi, Kučerovi a Manuelovi, rozhovor s bývalým profesorem Hodinou, návod jak na prváky, filmové okénko a představení profesorky Dřevojánkové na str. 7.
 
 \clearpage
-\headheight = 12pt
 
 \section*{Ethnic friendly v České televizi}
 Rada pro rovnoprávné příležitosti před nedávnem
@@ -159,7 +153,7 @@ spočítejte, o kolik více si vyděláte, když zvládnete správně používat
 
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=0.7\textwidth]{wolt}
+    \includegraphics[width=0.65\textwidth]{wolt}
 \end{figure}
 
 Bohužel tato osvětová činnost páně profesorově skončila poté, co si jeho nejtalentovanější žák
@@ -182,7 +176,7 @@ místo tankování velel popojet k pestře svítícím neonům nedalekého Casin
 
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=0.62\textwidth]{ny}
+    \includegraphics[width=0.55\textwidth]{ny}
 \end{figure}
 
 Postavil se před nás a odhodlaně pravil: \uv{Ritz anebo nic!!! Uvědomte si, že s takovýmito penězi
@@ -211,10 +205,12 @@ O čem bude řeč? Napoví tento obrázek:
 
 \begin{figure}[htbp]
     \centering
+    \vspace*{-3pt}
     \includegraphics[width=0.9\textwidth]{barbie}
+    \vspace*{-6pt}
+    \caption*{\scriptsize Ano správně, jde o absolutní výbuch Kazmova filmu Onemanshow, který sice první týden přilákal do kin rekordní počet návštěvníků, ale divácky totálně propadl již čtvrtý týden po premiéře. Svědčí to o něčem? - Samozřejmě, že ano. (Ale o čem???)}
 \end{figure}
-\vspace*{-12pt}
-{\scriptsize Ano správně, jde o absolutní výbuch Kazmova filmu Onemanshow, který sice první týden přilákal do kin rekordní počet návštěvníků, ale divácky totálně propadl již čtvrtý týden po premiéře. Svědčí to o něčem? - Samozřejmě, že ano. (Ale o čem???)}
+
 \clearpage
 
 \section*{Zpověď}
@@ -284,7 +280,7 @@ A jestli si myslíte, že je to Libiaková, tak se šeredně pletete!
     \Large \textbf{Soutěž o nejlepší podobiznu některého z~profesorů či profesorek - kdo máte jakoukoliv kresbičku, pošlete ji!}
 \end{center}
 \centering
-\includegraphics[width=0.97\textwidth]{wanted}
+\includegraphics[width=0.95\textwidth]{wanted}
 
 \lfoot{\scriptsize Obrázky zasílejte na: gevotimes@gmail.com nebo na instagram @gevotimes}
 \end{document}
